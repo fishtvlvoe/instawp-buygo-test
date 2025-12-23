@@ -1,0 +1,50 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build tools
+# .vite/  # 註解掉這行，讓建置檔案可以被推送
+dist/
+build/
+
+# 但排除開發用的 .vite 快取檔案（保留建置結果）
+.vite/deps/
+.vite/temp/
+
+# Development files
+resources/admin/node_modules/
+resources/admin/src/
+resources/admin/*.ts
+resources/admin/*.vue
+resources/admin/*.jsx
+resources/admin/*.tsx
+
+# Test files
+tests/
+*.test.php
+*.spec.php
+
+# Documentation (optional, can be kept if needed)
+docs/
+tech-docs/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
