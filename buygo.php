@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       BuyGo
  * Plugin URI:        https://buygo.me
- * Description:       BuyGo 核心外掛（包含 Core 與 Plus One 模組）。管理角色/權限、API 設定、同步，以及 LINE +1 喊單流程。
+ * Description:       BuyGo Core Plugin with Plus One Module. Manage roles, permissions, API settings, sync, and LINE +1 order flow.
  * Version:           0.0.5
  * Requires at least: 5.8
  * Requires PHP:      7.4
